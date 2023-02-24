@@ -1,0 +1,532 @@
+[
+  {
+    "description": "    As a customer, I want to test the login functionalities on TF - Desktop",
+    "keyword": "Feature",
+    "name": "Login tests TF - Desktop",
+    "line": 2,
+    "id": "login-tests-tf---desktop",
+    "tags": [
+      {
+        "name": "@LoginTest",
+        "line": 1
+      },
+      {
+        "name": "@Desktop",
+        "line": 1
+      },
+      {
+        "name": "@RegressionTest",
+        "line": 1
+      }
+    ],
+    "uri": "Desktop_LoginTest.feature",
+    "elements": [
+      {
+        "id": "login-tests-tf---desktop;login-with-valid-e-mail-and-password",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Login with valid e-mail and password",
+        "tags": [
+          {
+            "name": "@LoginTest",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Login",
+            "line": 10
+          },
+          {
+            "name": "@Desktop",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 2558000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I'm on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 2572000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6101000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I do login using correct email and password",
+            "result": {
+              "status": "passed",
+              "duration": 9868000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I must be logged on the site",
+            "result": {
+              "status": "passed",
+              "duration": 272000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-tests-tf---desktop;login-with-incorrect-password",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Login with incorrect password",
+        "tags": [
+          {
+            "name": "@LoginTest",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Login",
+            "line": 15
+          },
+          {
+            "name": "@Desktop",
+            "line": 15
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 5052000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I'm on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 356000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6113000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I do login using incorrect password",
+            "result": {
+              "status": "passed",
+              "duration": 9138000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "Must be informed that the data access are wrong",
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-tests-tf---desktop;login-with-incorrect-email",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Login with incorrect email",
+        "tags": [
+          {
+            "name": "@LoginTest",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Login",
+            "line": 20
+          },
+          {
+            "name": "@Desktop",
+            "line": 20
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 5074000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I'm on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 318000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6092000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "I do login using incorrect email",
+            "result": {
+              "status": "passed",
+              "duration": 9014000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "Must be informed that the data access are wrong",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-tests-tf---desktop;login-with-incorrect-email-and-password",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Login with incorrect email and password",
+        "tags": [
+          {
+            "name": "@LoginTest",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Login",
+            "line": 25
+          },
+          {
+            "name": "@Desktop",
+            "line": 25
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 5086000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I'm on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 6069000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6095000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "I do login using incorrect email and password",
+            "result": {
+              "status": "passed",
+              "duration": 9187000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "Must be informed that the data access are wrong",
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-tests-tf---desktop;login-with-invalid-email-format",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Login with invalid email format",
+        "tags": [
+          {
+            "name": "@LoginTest",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Login",
+            "line": 30
+          },
+          {
+            "name": "@Desktop",
+            "line": 30
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 5083000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I'm on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 334000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6096000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "I do login using invalid format email",
+            "result": {
+              "status": "passed",
+              "duration": 9116000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "Must be informed that the email is in a invalid format",
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-tests-tf---desktop;loggout",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "Loggout",
+        "tags": [
+          {
+            "name": "@LoginTest",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Login",
+            "line": 35
+          },
+          {
+            "name": "@Desktop",
+            "line": 35
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 5054000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I'm on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 449000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6093000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "I do login using correct email and password",
+            "result": {
+              "status": "passed",
+              "duration": 9227000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "I must be logged on the site",
+            "result": {
+              "status": "passed",
+              "duration": 281000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 39,
+            "name": "I do Loggout from the site",
+            "result": {
+              "status": "passed",
+              "duration": 2752000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "I must not be logged into the site",
+            "result": {
+              "status": "passed",
+              "duration": 2730000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

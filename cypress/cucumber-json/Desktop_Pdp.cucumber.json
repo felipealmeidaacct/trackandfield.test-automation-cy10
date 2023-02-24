@@ -1,0 +1,623 @@
+[
+  {
+    "description": "\tAs a customer, I want to test the product detail page functionalities on TF - Desktop",
+    "keyword": "Feature",
+    "name": "Product Detail Page tests TF - Desktop",
+    "line": 2,
+    "id": "product-detail-page-tests-tf---desktop",
+    "tags": [
+      {
+        "name": "@PdpTest",
+        "line": 1
+      },
+      {
+        "name": "@Desktop",
+        "line": 1
+      },
+      {
+        "name": "@RegressionTest",
+        "line": 1
+      }
+    ],
+    "uri": "Desktop_Pdp.feature",
+    "elements": [
+      {
+        "id": "product-detail-page-tests-tf---desktop;at-desktop-validate-price-block",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "At Desktop validate price block",
+        "tags": [
+          {
+            "name": "@PdpTest",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Pdp",
+            "line": 11
+          },
+          {
+            "name": "@Desktop",
+            "line": 11
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 2546000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I'm on the product detail page",
+            "result": {
+              "status": "passed",
+              "duration": 3640000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "The page is full loaded",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6154000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the product value is visible",
+            "result": {
+              "status": "passed",
+              "duration": 5011000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "product-detail-page-tests-tf---desktop;at-desktop-validate-product-image",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "At Desktop validate product image",
+        "tags": [
+          {
+            "name": "@PdpTest",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Pdp",
+            "line": 15
+          },
+          {
+            "name": "@Desktop",
+            "line": 15
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 5067000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I'm on the product detail page",
+            "result": {
+              "status": "passed",
+              "duration": 5745000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "The page is full loaded",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6122000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "The product image should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "product-detail-page-tests-tf---desktop;at-desktop-calculate-valid-shipping-in-the-product-page",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "At Desktop Calculate valid shipping in the product page",
+        "tags": [
+          {
+            "name": "@PdpTest",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Pdp",
+            "line": 19
+          },
+          {
+            "name": "@Desktop",
+            "line": 19
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 5105000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I'm on the product detail page",
+            "result": {
+              "status": "passed",
+              "duration": 4300000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "The page is full loaded",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6132000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "On the product page calculate valid shipping",
+            "result": {
+              "status": "passed",
+              "duration": 5418000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "The shipping table should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "product-detail-page-tests-tf---desktop;at-desktop-calculate-invalid-shipping-in-the-product-page",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "At Desktop Calculate invalid shipping in the product page",
+        "tags": [
+          {
+            "name": "@PdpTest",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Pdp",
+            "line": 24
+          },
+          {
+            "name": "@Desktop",
+            "line": 24
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 5076000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I'm on the product detail page",
+            "result": {
+              "status": "passed",
+              "duration": 3802000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "The page is full loaded",
+            "result": {
+              "status": "passed",
+              "duration": 325000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6132000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "On the product page calculate invalid shipping",
+            "result": {
+              "status": "passed",
+              "duration": 5296000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "The shipping table should not be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 5013000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "product-detail-page-tests-tf---desktop;at-desktop-share-product",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "At Desktop Share Product",
+        "tags": [
+          {
+            "name": "@PdpTest",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Pdp",
+            "line": 31
+          },
+          {
+            "name": "@Desktop",
+            "line": 31
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 5074000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I'm on the product detail page",
+            "result": {
+              "status": "passed",
+              "duration": 3474000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "The page is full loaded",
+            "result": {
+              "status": "passed",
+              "duration": 410000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6159000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "On the product page share product",
+            "result": {
+              "status": "passed",
+              "duration": 177000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "The modal share should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 14346000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "product-detail-page-tests-tf---desktop;at-desktop-validate-button-wishlist",
+        "keyword": "Scenario",
+        "line": 37,
+        "name": "At Desktop validate button wishlist",
+        "tags": [
+          {
+            "name": "@PdpTest",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Pdp",
+            "line": 36
+          },
+          {
+            "name": "@Desktop",
+            "line": 36
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 5072000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I'm on the product detail page",
+            "result": {
+              "status": "passed",
+              "duration": 3213000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "The page is full loaded",
+            "result": {
+              "status": "passed",
+              "duration": 200000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6142000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "The button wishlist should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "product-detail-page-tests-tf---desktop;at-desktop-validate-size-selector",
+        "keyword": "Scenario",
+        "line": 41,
+        "name": "At Desktop validate size selector",
+        "tags": [
+          {
+            "name": "@PdpTest",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Pdp",
+            "line": 40
+          },
+          {
+            "name": "@Desktop",
+            "line": 40
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 5158000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I'm on the product detail page",
+            "result": {
+              "status": "passed",
+              "duration": 3927000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "The page is full loaded",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6141000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "two size must be selected",
+            "result": {
+              "status": "passed",
+              "duration": 8296000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
