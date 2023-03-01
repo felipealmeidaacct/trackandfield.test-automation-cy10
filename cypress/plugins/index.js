@@ -2,7 +2,7 @@
 /* /// <reference types="@shelex/cypress-allure-plugin" />
 const AllureWriter = require('@shelex/cypress-allure-plugin/writer'); */
 const cucumber = require('cypress-cucumber-preprocessor').default;
-
+const allureWriter = require('@shelex/cypress-allure-plugin/writer')
 // This function is called when a project is opened or re-opened (e.g. due to
 // the project's config changing)
 /**
@@ -20,4 +20,6 @@ const cucumber = require('cypress-cucumber-preprocessor').default;
 //cucumber-preprocessor
 module.exports = (on, config) => {
   on('file:preprocessor', cucumber())
+  allureWriter(on, config);
+  return config;
 };

@@ -28,6 +28,8 @@
   "author": "ACCT.GLOBAL",
   "license": "ISC",
   "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.35.2",
+    "allure-commandline": "^2.21.0",
     "browserstack-cypress-cli": "^1.11.0",
     "cypress": "10.11.0",
     "cypress-cucumber-preprocessor": "4.3.1",

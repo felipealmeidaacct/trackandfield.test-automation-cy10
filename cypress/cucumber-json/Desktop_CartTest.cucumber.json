@@ -57,7 +57,7 @@
             "name": "At Desktop",
             "result": {
               "status": "passed",
-              "duration": 2617000000
+              "duration": 2590000000
             }
           },
           {
@@ -67,7 +67,7 @@
             "name": "I'm on the product detail page",
             "result": {
               "status": "passed",
-              "duration": 5660000000
+              "duration": 5777000000
             }
           },
           {
@@ -77,7 +77,7 @@
             "name": "I see the promocional modal",
             "result": {
               "status": "passed",
-              "duration": 6191000000
+              "duration": 6176000000
             }
           },
           {
@@ -87,7 +87,7 @@
             "name": "I add the product to the cart",
             "result": {
               "status": "passed",
-              "duration": 24462000000
+              "duration": 22607000000
             }
           },
           {
@@ -97,7 +97,7 @@
             "name": "I validate if the product is in the cart",
             "result": {
               "status": "passed",
-              "duration": 5160000000
+              "duration": 5053000000
             }
           }
         ]
@@ -138,7 +138,7 @@
             "name": "At Desktop",
             "result": {
               "status": "passed",
-              "duration": 5410000000
+              "duration": 5194000000
             }
           },
           {
@@ -148,7 +148,7 @@
             "name": "I see the promocional modal",
             "result": {
               "status": "passed",
-              "duration": 6026000000
+              "duration": 6039000000
             }
           },
           {
@@ -158,7 +158,7 @@
             "name": "I'm on the product detail page",
             "result": {
               "status": "passed",
-              "duration": 3270000000
+              "duration": 3613000000
             }
           },
           {
@@ -168,7 +168,7 @@
             "name": "I add two items in the cart",
             "result": {
               "status": "passed",
-              "duration": 53106000000
+              "duration": 50799000000
             }
           },
           {
@@ -178,7 +178,7 @@
             "name": "I validate if the two items are in cart",
             "result": {
               "status": "passed",
-              "duration": 7812000000
+              "duration": 7607000000
             }
           }
         ]
@@ -219,7 +219,7 @@
             "name": "At Desktop",
             "result": {
               "status": "passed",
-              "duration": 5255000000
+              "duration": 5150000000
             }
           },
           {
@@ -229,7 +229,7 @@
             "name": "I see the promocional modal",
             "result": {
               "status": "passed",
-              "duration": 6043000000
+              "duration": 6014000000
             }
           },
           {
@@ -239,7 +239,7 @@
             "name": "I have one item in the cart with 1 units",
             "result": {
               "status": "passed",
-              "duration": 8672000000
+              "duration": 2974000000
             }
           },
           {
@@ -249,7 +249,7 @@
             "name": "I add the quantity for 4 units",
             "result": {
               "status": "passed",
-              "duration": 17996000000
+              "duration": 17802000000
             }
           },
           {
@@ -259,7 +259,7 @@
             "name": "I validate if the quantity has been changed to 4",
             "result": {
               "status": "passed",
-              "duration": 5071000000
+              "duration": 5057000000
             }
           }
         ]
@@ -300,7 +300,7 @@
             "name": "At Desktop",
             "result": {
               "status": "passed",
-              "duration": 5242000000
+              "duration": 5130000000
             }
           },
           {
@@ -310,7 +310,7 @@
             "name": "I see the promocional modal",
             "result": {
               "status": "passed",
-              "duration": 6048000000
+              "duration": 6036000000
             }
           },
           {
@@ -320,7 +320,7 @@
             "name": "I have one item in the cart with 1 units",
             "result": {
               "status": "passed",
-              "duration": 2592000000
+              "duration": 2311000000
             }
           },
           {
@@ -330,7 +330,7 @@
             "name": "I calculate invalid shipping",
             "result": {
               "status": "passed",
-              "duration": 3956000000
+              "duration": 3817000000
             }
           },
           {
@@ -340,7 +340,7 @@
             "name": "The shipping table should not be displayed at Cart",
             "result": {
               "status": "passed",
-              "duration": 34000000
+              "duration": 11000000
             }
           }
         ]
@@ -381,7 +381,7 @@
             "name": "At Desktop",
             "result": {
               "status": "passed",
-              "duration": 5230000000
+              "duration": 5118000000
             }
           },
           {
@@ -391,7 +391,7 @@
             "name": "I see the promocional modal",
             "result": {
               "status": "passed",
-              "duration": 6075000000
+              "duration": 6007000000
             }
           },
           {
@@ -401,7 +401,7 @@
             "name": "I have one item in the cart with 1 units",
             "result": {
               "status": "passed",
-              "duration": 2551000000
+              "duration": 4620000000
             }
           },
           {
@@ -411,7 +411,7 @@
             "name": "I type a invalid discount coupon",
             "result": {
               "status": "passed",
-              "duration": 3885000000
+              "duration": 3852000000
             }
           },
           {
@@ -421,7 +421,7 @@
             "name": "The discount coupon should be invalid",
             "result": {
               "status": "passed",
-              "duration": 8080000000
+              "duration": 8056000000
             }
           }
         ]
@@ -462,7 +462,7 @@
             "name": "At Desktop",
             "result": {
               "status": "passed",
-              "duration": 5210000000
+              "duration": 5167000000
             }
           },
           {
@@ -472,7 +472,7 @@
             "name": "I see the promocional modal",
             "result": {
               "status": "passed",
-              "duration": 6039000000
+              "duration": 6012000000
             }
           },
           {
@@ -482,7 +482,7 @@
             "name": "I have one item in the cart with 1 units",
             "result": {
               "status": "passed",
-              "duration": 5294000000
+              "duration": 5127000000
             }
           },
           {
@@ -492,7 +492,7 @@
             "name": "I remove the item from cart",
             "result": {
               "status": "passed",
-              "duration": 5259000000
+              "duration": 5185000000
             }
           },
           {
@@ -502,7 +502,7 @@
             "name": "I validate if the product is not in the cart",
             "result": {
               "status": "passed",
-              "duration": 5162000000
+              "duration": 5061000000
             }
           }
         ]
@@ -543,7 +543,7 @@
             "name": "At Desktop",
             "result": {
               "status": "passed",
-              "duration": 5188000000
+              "duration": 5144000000
             }
           },
           {
@@ -553,7 +553,7 @@
             "name": "I see the promocional modal",
             "result": {
               "status": "passed",
-              "duration": 6043000000
+              "duration": 6045000000
             }
           },
           {
@@ -563,7 +563,7 @@
             "name": "I have two items in the cart with 1 units each one",
             "result": {
               "status": "passed",
-              "duration": 5142000000
+              "duration": 2381000000
             }
           },
           {
@@ -573,7 +573,7 @@
             "name": "I remove all items from cart",
             "result": {
               "status": "passed",
-              "duration": 5377000000
+              "duration": 5228000000
             }
           },
           {
@@ -583,7 +583,7 @@
             "name": "I validate if is clean cart",
             "result": {
               "status": "passed",
-              "duration": 675000000
+              "duration": 374000000
             }
           }
         ]
@@ -624,7 +624,7 @@
             "name": "At Desktop",
             "result": {
               "status": "passed",
-              "duration": 5197000000
+              "duration": 5114000000
             }
           },
           {
@@ -634,7 +634,7 @@
             "name": "I see the promocional modal",
             "result": {
               "status": "passed",
-              "duration": 6073000000
+              "duration": 6014000000
             }
           },
           {
@@ -644,7 +644,7 @@
             "name": "I have one item in the cart with 5 units",
             "result": {
               "status": "passed",
-              "duration": 2577000000
+              "duration": 4805000000
             }
           },
           {
@@ -654,7 +654,7 @@
             "name": "I reduce the quantity for 2 units",
             "result": {
               "status": "passed",
-              "duration": 17980000000
+              "duration": 17845000000
             }
           },
           {
@@ -664,7 +664,7 @@
             "name": "I validate if the quantity has been changed to 2",
             "result": {
               "status": "passed",
-              "duration": 5061000000
+              "duration": 5042000000
             }
           }
         ]
@@ -705,7 +705,7 @@
             "name": "At Desktop",
             "result": {
               "status": "passed",
-              "duration": 5268000000
+              "duration": 5151000000
             }
           },
           {
@@ -715,7 +715,7 @@
             "name": "I see the promocional modal",
             "result": {
               "status": "passed",
-              "duration": 6098000000
+              "duration": 6049000000
             }
           },
           {
@@ -725,7 +725,7 @@
             "name": "I have one item in the cart with 1 units",
             "result": {
               "status": "passed",
-              "duration": 4340000000
+              "duration": 2869000000
             }
           },
           {
@@ -735,7 +735,7 @@
             "name": "I calculate valid shipping",
             "result": {
               "status": "passed",
-              "duration": 3948000000
+              "duration": 3833000000
             }
           },
           {
@@ -745,7 +745,7 @@
             "name": "The shipping table should be displayed at Cart",
             "result": {
               "status": "passed",
-              "duration": 2739000000
+              "duration": 2190000000
             }
           }
         ]
@@ -786,7 +786,7 @@
             "name": "At Desktop",
             "result": {
               "status": "passed",
-              "duration": 5252000000
+              "duration": 5129000000
             }
           },
           {
@@ -796,7 +796,7 @@
             "name": "I see the promocional modal",
             "result": {
               "status": "passed",
-              "duration": 6070000000
+              "duration": 6047000000
             }
           },
           {
@@ -806,7 +806,7 @@
             "name": "I have one item in the cart with 1 units",
             "result": {
               "status": "passed",
-              "duration": 3905000000
+              "duration": 4580000000
             }
           },
           {
@@ -816,7 +816,7 @@
             "name": "I calculate alphanumeric shipping",
             "result": {
               "status": "passed",
-              "duration": 4628000000
+              "duration": 3911000000
             }
           },
           {
@@ -826,7 +826,7 @@
             "name": "The shipping should be invalid",
             "result": {
               "status": "passed",
-              "duration": 30000000
+              "duration": 12000000
             }
           }
         ]
