@@ -1,22 +1,22 @@
-# @Checkout @Desktop @RegressionTest
-# Feature: Checkout tests TF - Desktop
-# 	As a customer, I want to test the checkout functionalities on TF - Desktop
+@Checkout @Desktop @RegressionTest
+Feature: Checkout tests TF - Desktop
+	As a customer, I want to test the checkout functionalities on TF - Desktop
 
-#     Background:
-#         Given At Desktop 
-#         And I have one item in the cart with 1 units
-#         And I proceed to checkout
+    Background:
+        Given At Desktop 
+        And I have one item in the cart with 1 units
+        And I proceed to checkout
 
-# # VALIDAÇÃO DE DADOS PESSOAIS
-#     @Checkout @Desktop
-# 	Scenario: Validade mandatory document alert is displayed
-#         And I fill in the checkout data without document
-# 		Then mandatory document alert is displayed
+# VALIDAÇÃO DE DADOS PESSOAIS
+    @Checkout @Desktop
+	Scenario: Validade mandatory document alert is displayed
+        And I fill in the checkout data without document
+		Then mandatory document alert is displayed
 
-#     @Checkout @Desktop
-# 	Scenario: Validade mandatory firstname alert is displayed
-#        And I fill in the checkout data without firstname
-#        Then mandatory firstname alert is displayed
+    @Checkout @Desktop
+	Scenario: Validade mandatory firstname alert is displayed
+       And I fill in the checkout data without firstname
+       Then mandatory firstname alert is displayed
 
 #     @Checkout @Desktop
 # 	Scenario: Validade mandatory lastname alert is displayed
