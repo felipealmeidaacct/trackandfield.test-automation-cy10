@@ -20,6 +20,9 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       return require('./cypress/plugins/index.js')(on, config)
     },
+    env: {
+      allure: true
+    },
     specPattern: '**/*.{feature,features}',
     baseUrl: 'https://www.tf.com.br/',
   },
