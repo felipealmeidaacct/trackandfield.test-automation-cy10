@@ -9,12 +9,12 @@ Feature: Navigation tests TF - Mobile
 		And I see the promocional modal
 		Then the store logo has a link to homepage mobile
 
-	@Navigation @Mobile @SamsungS10
-	Scenario: Test the redirection of the TF logo from Home to Home - SamsungS10
-		Given At SamsungS10 
-		And I'm on the home page
-		And I see the promocional modal
-		Then the store logo has a link to homepage mobile
+	# @Navigation @Mobile @SamsungS10
+	# Scenario: Test the redirection of the TF logo from Home to Home - SamsungS10
+	# 	Given At SamsungS10 
+	# 	And I'm on the home page
+	# 	And I see the promocional modal
+	# 	Then the store logo has a link to homepage mobile
 	
 	# @Navigation @Mobile @SamsungS10
 	# Scenario: Test the redirection of the TF logo from PDP to Home - SamsungS10

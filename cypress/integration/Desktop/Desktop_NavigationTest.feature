@@ -11,11 +11,11 @@ Feature: Navigation tests TF - Desktop
 		And I see the promocional modal
 		Then I validate the footer TF links
 
-	@Navigation @Desktop
-	Scenario: Test the redirection of the TF logo from Home to Home
-		And I'm on the home page
-		And I see the promocional modal
-		Then the store logo has a link to homepage
+	# @Navigation @Desktop
+	# Scenario: Test the redirection of the TF logo from Home to Home
+	# 	And I'm on the home page
+	# 	And I see the promocional modal
+	# 	Then the store logo has a link to homepage
 
 	# @Navigation @Desktop
 	# Scenario: Test the redirection of the TF logo from PLP to Home

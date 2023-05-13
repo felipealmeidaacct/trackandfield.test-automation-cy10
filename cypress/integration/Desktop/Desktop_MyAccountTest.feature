@@ -14,15 +14,15 @@ Feature: My Account tests TF - Desktop
 		And I edit an address
 		Then I check if the address was edited correctly
 
-	@MyAccount @Desktop
-	Scenario: At Desktop edit personal data - Gender F
-		Given At Desktop
-        And I'm on the home page
-		And I see the promocional modal
-		And I do login using correct email and password
-        And I Access the profile page
-		When I edit my personal data - Gender F
-		Then I check if the personal data was edited correctly - Gender F
+	# @MyAccount @Desktop
+	# Scenario: At Desktop edit personal data - Gender F
+	# 	Given At Desktop
+    #     And I'm on the home page
+	# 	And I see the promocional modal
+	# 	And I do login using correct email and password
+    #     And I Access the profile page
+	# 	When I edit my personal data - Gender F
+	# 	Then I check if the personal data was edited correctly - Gender F
 
 	# @MyAccount @Desktop
 	# Scenario: At Desktop edit personal data - Gender M

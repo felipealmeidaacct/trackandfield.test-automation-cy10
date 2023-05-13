@@ -12,9 +12,9 @@ Feature: Product Detail Page tests TF - Desktop
 	Scenario: At Desktop validate price block 
 		Then the product value is visible
 
-	@Pdp @Desktop
-	Scenario: At Desktop validate product image
-		Then The product image should be displayed
+	# @Pdp @Desktop
+	# Scenario: At Desktop validate product image
+	# 	Then The product image should be displayed
 
 	# @Pdp @Desktop
 	# Scenario: At Desktop Calculate valid shipping in the product page

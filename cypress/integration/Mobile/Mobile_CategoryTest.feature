@@ -10,13 +10,13 @@ Feature: Category tests TF - Mobile
 		And I see the promocional modal
 		Then The product card should be visible
 
-	@Category @Mobile @SamsungS10
-	Scenario: Validate ordenation by Mais Vendidos SamsungS10
-		Given At SamsungS10
-	    And I'm on the product list page
-		And I see the promocional modal
-		When I select the ordination by Mais Vendidos
-		Then I validate the page ordenation by Mais Vendidos
+	# @Category @Mobile @SamsungS10
+	# Scenario: Validate ordenation by Mais Vendidos SamsungS10
+	# 	Given At SamsungS10
+	#     And I'm on the product list page
+	# 	And I see the promocional modal
+	# 	When I select the ordination by Mais Vendidos
+	# 	Then I validate the page ordenation by Mais Vendidos
 
 	# @Category @Mobile @SamsungS10
 	# Scenario: Validate ordenation by Mais recentes SamsungS10

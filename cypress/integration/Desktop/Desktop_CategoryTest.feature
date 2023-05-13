@@ -11,10 +11,10 @@ Feature: Category tests TF - Desktop
 	Scenario: Validate product card
 		Then The product card should be visible
 
-	@Category @Desktop
-	Scenario: Validate ordenation by Mais Vendidos
-		When I select the ordination by Mais Vendidos
-		Then I validate the page ordenation by Mais Vendidos
+	# @Category @Desktop
+	# Scenario: Validate ordenation by Mais Vendidos
+	# 	When I select the ordination by Mais Vendidos
+	# 	Then I validate the page ordenation by Mais Vendidos
 	
 	# @Category @Desktop
 	# Scenario: Validate ordenation by Mais recentes

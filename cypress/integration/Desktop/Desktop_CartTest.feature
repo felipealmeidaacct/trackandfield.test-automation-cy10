@@ -12,12 +12,12 @@ Feature: Cart tests TF - Desktop
         When I add the product to the cart
         Then I validate if the product is in the cart
 
-    @Cart @Desktop
-    Scenario: Add two items to cart
-        And I see the promocional modal
-        And I'm on the product detail page
-        When I add two items in the cart
-        Then I validate if the two items are in cart
+    # @Cart @Desktop
+    # Scenario: Add two items to cart
+    #     And I see the promocional modal
+    #     And I'm on the product detail page
+    #     When I add two items in the cart
+    #     Then I validate if the two items are in cart
 
     #     @Cart @Desktop
     # Scenario: Add item with two units

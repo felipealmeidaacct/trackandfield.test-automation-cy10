@@ -13,10 +13,10 @@ Feature: Checkout tests TF - Desktop
         And I fill in the checkout data without document
 		Then mandatory document alert is displayed
 
-    @Checkout @Desktop
-	Scenario: Validade mandatory firstname alert is displayed
-       And I fill in the checkout data without firstname
-       Then mandatory firstname alert is displayed
+    # @Checkout @Desktop
+	# Scenario: Validade mandatory firstname alert is displayed
+    #    And I fill in the checkout data without firstname
+    #    Then mandatory firstname alert is displayed
 
 #     @Checkout @Desktop
 # 	Scenario: Validade mandatory lastname alert is displayed

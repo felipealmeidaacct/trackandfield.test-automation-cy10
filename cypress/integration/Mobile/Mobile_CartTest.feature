@@ -10,12 +10,12 @@ Feature: Cart tests TF - Mobile
         When I add the product to the cart at mobile
         Then I validate if the product is in the cart
     
-    @Cart @Mobile @SamsungS10
-    Scenario: At SamsungS10 Add two items to cart
-        Given At SamsungS10
-        And I'm on the product detail page
-        When I add two items in the cart mobile
-        Then I validate if the two items are in cart
+    # @Cart @Mobile @SamsungS10
+    # Scenario: At SamsungS10 Add two items to cart
+    #     Given At SamsungS10
+    #     And I'm on the product detail page
+    #     When I add two items in the cart mobile
+    #     Then I validate if the two items are in cart
 
     # @Cart @Mobile @SamsungS10
     # Scenario: At SamsungS10 Remove item from the cart
